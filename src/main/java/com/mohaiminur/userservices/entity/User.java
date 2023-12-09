@@ -1,6 +1,4 @@
 package com.mohaiminur.userservices.entity;
-
-import com.mohaiminur.userservices.enums.UserType;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -21,9 +19,8 @@ public class User {
     @Column(name = "last_name")
     private String lastName;
 
-    @Enumerated(EnumType.STRING)
     @Column(name = "user_type")
-    private UserType userType;
+    private String userType;
 
     @Column(name = "parent_id")
     private Long parentId;
