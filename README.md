@@ -4,9 +4,11 @@ A Spring Boot application for storing user data, with support for different user
 
 ## Prerequisites
 
-- Java 11 or later
+- Java 17 or later
 - Maven
-
+- Spring Boot
+- MySQL
+- Jpa
 ## Getting Started
 
 Follow these instructions to get the project up and running on your local machine.
